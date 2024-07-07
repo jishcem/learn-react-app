@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import {default as AjeeshCounter} from './Ajeesh/Counter/Counter';
+import {default as VineethCounterOne} from './Vineeth/Counters/Counter';
 
 // 1. Create a counter component - a + button and when clicked increases the value of the number displayed.
 // 2. Create a counter component with increment and decrement option.
@@ -10,6 +11,8 @@ function App() {
   return (
     <div className="App">
       <AjeeshCounter />
+      <hr />
+      <VineethCounterOne />
     </div>
   );
 }
